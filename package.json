@@ -1,0 +1,23 @@
+{
+  "name": "visualpro",
+  "version": "1.0.0",
+  "description": "A lyrics rendering application.",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virusQ/visualpro.git"
+  },
+  "keywords": [
+    "visual",
+    "ppt"
+  ],
+  "author": "yjv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/virusQ/visualpro/issues"
+  },
+  "homepage": "https://github.com/virusQ/visualpro#readme"
+}

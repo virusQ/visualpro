@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Visual Pro</title>
+    <link rel="stylesheet" href="./assets/style/app.css">
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+    We are using Node.js <script>document.write(process.versions.node)</script>,
+    Chromium <script>document.write(process.versions.chrome)</script>,
+    and Electron <script>document.write(process.versions.electron)</script>.
+    <button id='demo'>Click Me</button>
+    <button id='textA'>Text A</button>
+    <button id='textB'>Text B</button>
+    <button id='close'>Close</button>
+  
+    <input type="time" val="now">
+    <button id="countdown">Count Down</button>
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+  </body>
+</html>

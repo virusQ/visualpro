@@ -49,6 +49,7 @@ $(function(){
     intervalHour = parseInt(endHour) - parseInt(nowHour)
     intervalMinute = parseInt(endMinute) - parseInt(nowMinute)
     intervalSecond = parseInt(endSecond) - parseInt(nowSecond)
+    intervalHour = intervalHour < 0 ? 24 + intervalHour : intervalHour
     interval = intervalHour * 3600 + intervalMinute * 60 + intervalSecond
     counting();
 

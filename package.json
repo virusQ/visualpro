@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/virusQ/visualpro/issues"
   },
-  "homepage": "https://github.com/virusQ/visualpro#readme"
+  "homepage": "https://github.com/virusQ/visualpro#readme",
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "semantic": "0.0.1"
+  }
 }

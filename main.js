@@ -31,7 +31,7 @@ function createWindow () {
   })
 
   mainWindow.webContents.on('new-window', (event, url, frameName, disposition, options, additionalFeatures) => {
-    if (frameName === 'display') {
+    if (frameName === 'renderer') {
       // open window as modal
       event.preventDefault()
     if (externalDisplay) {
